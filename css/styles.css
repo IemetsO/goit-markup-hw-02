@@ -1,0 +1,8 @@
+:root {
+  --primary-text-color: ;
+  --title-text-color: ;
+  --accent-color: ;
+}
+body {
+  color: var(--primary-text-color);
+}
