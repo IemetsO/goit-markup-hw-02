@@ -5,6 +5,7 @@
   --primary-bg-color: #ffffff;
   --secondary-br-color: #e5e5e5;
 }
+
 /* цвет навигации #212121; */
 /* цвет акцента навигации #2196F3; */
 /* цвет контактов без акцента #757575 */
@@ -14,63 +15,171 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
+
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-decoration: none;
 }
+
+.accent {
+  color: var(--title-text-color);
+}
+
 .list {
   list-style: none;
 }
+
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 .contact {
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .contact:focus,
 .contact:hover {
   color: var(--accent-color);
 }
+
+/* Hero */
 .hero-title {
-  color: var(--title-text-color);
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
+
+.hero {
+  background-color: #2f303a;
+}
+
 /* buttons */
 .button {
   color: var(--primary-text-color);
   background: var(--primary-bg-color);
+  font-family: inherit;
 }
+
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
+
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--secondary-br-color);
 }
+
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
+
+/* Features */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
-/* Features */
+
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
+
+.feature-list .text {
+  var(--primary-text-color) font-size: 14px;
+  line-height: 1.71;
+}
+
 /* Team */
+.team {
+  background-color: #F5F4FA
+}
+
 .team-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
 .portfolio-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio-list .link {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2F303A;
+  ;
+}
+
+.address {
+  color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.accent.footer {
+  color: var(--primary-bg-color);
+}
+
+.address.link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
